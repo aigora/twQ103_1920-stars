@@ -1,0 +1,10 @@
+calculo 						6	 4
+fisica_I 						6	 4
+estadistica 					6	 4
+quimica 						6	 4
+ingles 							6	 4
+informatica 					6	 4
+ciencia_de_materiales 			4.5	 3
+medio_ambiente 					3	 2.5
+transmision_de_calor 			4.5	 3
+experimentacion_quimica 		3	 3	
