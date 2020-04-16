@@ -114,7 +114,7 @@ int main(){
 								
 								switch (opcionB) {
 								
-								case 1:
+								case 1: //buscar otra forma para que se muestren las asignaturas
 									printf("++++++ Asignaturas disponibles ++++++\n");
 									printf("- calculo\n");
 									printf("- fisica I\n");
