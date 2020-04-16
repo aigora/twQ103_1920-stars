@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Menú de opciones para la cuenta STARS
+// MenÃº de opciones para la cuenta STARS
 int main(){
 
 	char opcion;
@@ -19,11 +19,11 @@ int main(){
        	case 'A':
 		case 'a':
 			char nombre[50],contrasena[50];
-       		printf("Para registrarse tiene que seleccionar su numbre de usuario y contraseña \n");
+       		printf("Para registrarse tiene que seleccionar su numbre de usuario y contraseÃ±a \n");
        		printf("Introduzca su nombre de usuario:\n");
        		fflush(stdin);
        		gets(nombre);
-       		printf("Introduzca su contraseña sin espacios :\n");
+       		printf("Introduzca su contraseÃ±a sin espacios :\n");
        		fflush(stdin);
        		gets(contrasena);
        		break;
