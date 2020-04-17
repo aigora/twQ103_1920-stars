@@ -143,8 +143,9 @@ int main(){
 									
 									fclose(fentrada);
 									
-									return 0;
-									
+									break; //si pongo return0; acaba el programa, con break me dice que vuelva a ingresar la contraseña
+									//hacer un do-while
+																		
 								case 3:
 									//volver
 									
@@ -166,6 +167,7 @@ int main(){
 								   
 								} else {
        		    	            	printf("La contrasenna es incorrecta\n");
+       		    	            	break;
 								   }
        		    				
 							   } 
