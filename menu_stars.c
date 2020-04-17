@@ -127,8 +127,8 @@ int main(){
 									printf("- medio ambiente\n");
 									printf("- experimentacion quimica\n\n");
 
-									printf("Escriba 5 asignaturas que desee llevar:\n");
-									scanf("%s %s %s %s %s", mat1,mat2,)
+								/*	printf("Escriba 5 asignaturas que desee llevar:\n");
+									scanf("%s %s %s %s %s", mat1,mat2,) */
 									
 									//TERMINAR...
 									break;
@@ -146,17 +146,25 @@ int main(){
 									return 0;
 									
 								case 3:
-									//vovler
+									//volver
 									
+									break;
+									
+									//me falta un default tmb
+									
+								}
+									
+							 
 								
 								
 								
 								
-								
-								
+							/*
        		    	        	printf("Introduzca el numero que quiera :\n");
        		    	        	scanf("%d",&n);
-       		    	            }  else {
+       		    	            }  */ //PAU esto para que es?
+								   
+								} else {
        		    	            	printf("La contrasenna es incorrecta\n");
 								   }
        		    				
@@ -185,7 +193,7 @@ int main(){
 	   }
 
 
-	   }
-    }while (opcion!='C'&&opcion!='c');
-	
+	   } while (opcion!='C'&&opcion!='c');
+	   
 }
+	
