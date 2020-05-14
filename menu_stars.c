@@ -26,7 +26,6 @@ struct TAsignaturas {
 	char materia[50];
 	float ncreditos;
 	float nhoras;
-	//paula
 };
 
 struct datos{
@@ -197,6 +196,17 @@ int main(){
 									
 								
 								case 4:
+									
+									/*printf("          MENU DE STARS          \n");
+									printf("\n");
+									printf("Introduzca alguna de las opciones mostradas a continuacion \n");
+									printf("\n");
+									menu();
+									printf("Opcion seleccionada:");
+									fflush(stdin);
+									scanf("%c",&opcion);*/ 
+									
+									//no estoy segura
 									
 									break;
 								
