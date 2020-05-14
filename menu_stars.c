@@ -5,7 +5,7 @@
 void menu(){
 	 printf("A-Registrarse para acceder a la matricula\n");
 	 printf("B-Acceder a su cuenta\n");
-         printf("D-Salir de la pagina stars\n");
+	 printf("C-Salir de la pagina stars\n");
 	 printf("\n");
 }
 void banner(){
@@ -60,6 +60,7 @@ int main(){
 	char opcion;
 	int i,n;
 	int opcionB; //añado opciones de caseB
+	char mat1[50],mat2[50],mat3[50],mat4[50],mat5[50];
 	
 	struct datos usuario;
 	
@@ -152,6 +153,7 @@ int main(){
 									asignaturas ();
 									
 									printf ("Escoja 5 asignaturas que desee llevar:\n");
+									
 									gets(mat1);
 									gets(mat2);
 									gets(mat3);
