@@ -40,7 +40,7 @@ struct datos{
 };
 
 void asignaturas (){
-	printf("++++++ ASIGANATURAS DISPONIBLES ++++++\n");
+	printf("++++++ ASIGNATURAS DISPONIBLES ++++++\n");
 	printf("- Calculo\n");
 	printf("- Fisica I\n");
 	printf("- Estadistica\n");
@@ -152,6 +152,7 @@ int main(){
 									asignaturas ();
 									
 									printf ("Escoja 5 asignaturas que desee llevar:\n");
+									fflush(stdin);
 									
 									gets(mat1);
 									gets(mat2);
