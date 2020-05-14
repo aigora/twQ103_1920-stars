@@ -9,6 +9,8 @@ struct TAsignaturas {
 	float ncreditos;
 	float nhoras;
 	
+};
+
 struct datos{
 	char nombre[50],apellidos[50];
 	char dni[50];
@@ -18,7 +20,22 @@ struct datos{
 	int contrasennapedida;
 	int contrasenna;
 
-}};
+};
+
+void asignaturas (){
+	printf("++++++ ASIGANATURAS DISPONIBLES ++++++\n");
+	printf("- Calculo\n");
+	printf("- Fisica I\n");
+	printf("- Estadistica\n");
+	printf("- Quimica\n");
+	printf("- Ingles\n");
+	printf("- Informatica\n");
+	printf("- Ciencia de materiales\n");
+	printf("- Transmision de calor\n");
+	printf("- Medio ambiente\n");
+	printf("- Experimentacion quimica\n\n");
+	
+}
 
 int main(){
 	
@@ -114,18 +131,12 @@ int main(){
 								
 								switch (opcionB) {
 								
-								case 1: //buscar otra forma para que se muestren las asignaturas
-									printf("++++++ Asignaturas disponibles ++++++\n");
-									printf("- calculo\n");
-									printf("- fisica I\n");
-									printf("- estadistica\n");
-									printf("- quimica\n");
-									printf("- ingles\n");
-									printf("- informatica\n");
-									printf("- ciencia de materiales\n");
-									printf("- transmision de calor\n");
-									printf("- medio ambiente\n");
-									printf("- experimentacion quimica\n\n");
+								case 1:
+									
+									asignaturas ();
+									
+									printf ("Escoja 5 asignaturas que desee llevar:\n");
+									
 
 								/*	printf("Escriba 5 asignaturas que desee llevar:\n");
 									scanf("%s %s %s %s %s", mat1,mat2,) */
