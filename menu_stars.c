@@ -152,12 +152,14 @@ int main(){
 									asignaturas ();
 									
 									printf ("Escoja 5 asignaturas que desee llevar:\n");
-									//almacenarlo en un vector
-
-								/*	printf("Escriba 5 asignaturas que desee llevar:\n");
-									scanf("%s %s %s %s %s", mat1,mat2,) */
+									gets(mat1);
+									gets(mat2);
+									gets(mat3);
+									gets(mat4);
+									gets(mat5);
 									
-									//TERMINAR...
+									printf("******¡Su matricula ha sido realizada con exito!******\n\n");
+						
 									break;
 									
 								case 2:
@@ -175,6 +177,19 @@ int main(){
 																		
 								case 3:
 									
+									printf("D A T O S   P E R S O N A L E S :\n\n");
+									printf("  - NOMBRE: %s\n",usuario.nombre);
+									printf("  - APELLIDOS: %s\n",usuario.apellidos);
+									printf("  - N DNI: %s\n",usuario.dni);
+									printf("  - CORREO ELECTRONICO: %s\n",usuario.email);
+									printf("  - USUARIO: %s\n\n",usuario.n_usuario);
+									
+									printf ("A S I G N A T U R A S   M A T R I C U L A D A S :\n\n");
+									printf("1. %s\n",mat1);
+									printf("2. %s\n",mat2);
+									printf("3. %s\n",mat3);
+									printf("4. %s\n",mat4);
+									printf("5. %s\n\n",mat5);
 									
 									break;
 									
