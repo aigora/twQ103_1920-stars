@@ -8,7 +8,7 @@ struct TAsignaturas {
 	char materia[50];
 	float ncreditos;
 	float nhoras;
-	
+	//paula
 };
 
 struct datos{
@@ -64,8 +64,7 @@ int main(){
        printf("\n");
 	   printf("A-Registrarse para acceder a la matricula\n");
 	   printf("B-Acceder a su cuenta\n");
-	   printf("C-ALGOOOOOO\n");
-	   printf("D-Salir de la pagina stars\n");
+	   printf("C-Salir de la pagina stars\n");
 	   printf("\n");
 	   printf("Opcion seleccionada:");
 	   scanf("%c",&opcion);
@@ -126,7 +125,8 @@ int main(){
        		    	        	printf("Elija una opcion:\n");
 								printf("1. Matricularse\n");
 								printf("2. Ver informacion de asignaturas\n");
-								printf("3. Volver al menu principal\n");
+								printf("3. Ver informacion personal y de matricula\n");
+								printf("4. Volver al menu principal\n");
 								scanf("%d",&opcionB); //lo declaro al inicio
 								
 								switch (opcionB) {
@@ -136,7 +136,7 @@ int main(){
 									asignaturas ();
 									
 									printf ("Escoja 5 asignaturas que desee llevar:\n");
-									
+									//almacenarlo en un vector
 
 								/*	printf("Escriba 5 asignaturas que desee llevar:\n");
 									scanf("%s %s %s %s %s", mat1,mat2,) */
@@ -158,11 +158,17 @@ int main(){
 									//hacer un do-while
 																		
 								case 3:
-									//volver
+									
 									
 									break;
 									
-									//me falta un default tmb
+								
+								case 4:
+									
+									break;
+								
+								default:
+									printf("Opcion incorrecta\n");
 									
 								}
 									
