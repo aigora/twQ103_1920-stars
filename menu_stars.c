@@ -1,9 +1,27 @@
 #include<stdio.h>
 #include<string.h>
 
-// Menú de opciones para la cuenta STARS
+// MenÃº de opciones para la cuenta STARS
+void menu(){
+	 printf("A-Registrarse para acceder a la matricula\n");
+	 printf("B-Acceder a su cuenta\n");
+         printf("D-Salir de la pagina stars\n");
+	 printf("\n");
+}
+void banner(){
+	
+	printf("-----------------------------------------------------------------------------------------------------------------------\n");
+	printf("-----------------------------------------------------------------------------------------------------------------------\n");
+	printf("----------BIENVENIDO---------------------------------------------------------------------------------------------------\n");
+	printf("-----------------A-----------------------------------------------------------------------------------------------------\n");
+	printf("-------------------LA--------------------------------------------------------------------------------------------------\n");
+	printf("---------------------APLICACION--------------------------------------------------- ------------------------------------\n");
+	printf("-----------------------------------STARS-------------------------------------------------------------------------------\n");
+	printf("-----------------------------------------------------------------------------------------------------------------------\n");
+	printf("-----------------------------------------------------------------------------------------------------------------------\n");
+}
 
-//A�ado estructura para asignatura
+//Añado estructura para asignatura
 struct TAsignaturas {
 	char materia[50];
 	float ncreditos;
@@ -41,11 +59,11 @@ int main(){
 	
 	char opcion;
 	int i,n;
-	int opcionB; //a�ado opciones de caseB
+	int opcionB; //añado opciones de caseB
 	
 	struct datos usuario;
 	
-	//A�ado estructura de asignaturas
+	//Añado estructura de asignaturas
 	struct TAsignaturas materias[100];
 	int nAsignaturas = 0;
 	FILE * fentrada;
@@ -56,19 +74,17 @@ int main(){
 		printf("Error en la apertura del fichero\n");
 		return 0;
 	}
-	
+	banner();
 	do {
 	   printf("          MENU DE STARS          \n");
 	   printf("\n");
-       printf("Introduzca alguna de las opciones mostradas a continuacion \n");
-       printf("\n");
-	   printf("A-Registrarse para acceder a la matricula\n");
-	   printf("B-Acceder a su cuenta\n");
-	   printf("C-Salir de la pagina stars\n");
-	   printf("\n");
+           printf("Introduzca alguna de las opciones mostradas a continuacion \n");
+           printf("\n");
+	   menu();
 	   printf("Opcion seleccionada:");
-	   scanf("%c",&opcion);
 	   fflush(stdin);
+	   scanf("%c",&opcion);
+	  
 	   
 	   switch (opcion) {
 	   	case 'A':
@@ -154,7 +170,7 @@ int main(){
 									
 									fclose(fentrada);
 									
-									break; //si pongo return0; acaba el programa, con break me dice que vuelva a ingresar la contrase�a
+									break; //si pongo return0; acaba el programa, con break me dice que vuelva a ingresar la contraseña
 									//hacer un do-while
 																		
 								case 3:
