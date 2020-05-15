@@ -173,6 +173,7 @@ int main(){
 	   	case 'A':
 
 	    case 'a':
+	    	system("cls");
 
 	    	printf("\n");
 
@@ -180,7 +181,7 @@ int main(){
 
        		printf("\n");
 
-       	    printf("Introduzca su nombre :    ");
+       	        printf("Introduzca su nombre :    ");
 
        		scanf("%s",usuario.nombre);
 
@@ -220,7 +221,7 @@ int main(){
 
 			printf("\n");
 
-       		printf("Acaba de ser registrado como usuario en STARS . Volvera al menu principal para ingresar en la espacio virtual. \n");
+       		printf("Acaba de ser registrado como usuario en STARS \n");
 
        		printf("\n");
        	
@@ -235,7 +236,7 @@ int main(){
 
        	case 'b':
 
-       		    
+       		    system("cls");
 
        		    do{
 
@@ -266,8 +267,8 @@ int main(){
        		    	            	
 
        		    	        
-
-       		    	        	
+                              
+       		    	        	system("cls");
 
        		    	        	printf("Elija una opcion:\n");
 
@@ -288,7 +289,8 @@ int main(){
 								
 
 								case 1:
-
+                                    
+                                                                        system("cls");
 									
 
 									asignaturas ();
@@ -312,7 +314,8 @@ int main(){
 									gets(mat5);
 
 									
-
+                                                                        printf("\n");
+                                    
 									printf("******¡Su matricula ha sido realizada con exito!******\n\n");
 
 						
@@ -322,6 +325,7 @@ int main(){
 									
 
 								case 2:
+									system("cls");
 
 									printf("Se muestra las asignaturas, numero de creditos y numero de horas por semana:\n\n");
 
@@ -329,7 +333,7 @@ int main(){
 
 									while (fscanf(fentrada, "%s %f %f", materias[nAsignaturas].materia, &materias[nAsignaturas].ncreditos, &materias[nAsignaturas].nhoras) != EOF) {
 
-									printf("%s             %.2f %.2f\n", materias[nAsignaturas].materia, materias[nAsignaturas].ncreditos, materias[nAsignaturas].nhoras);
+									printf("%s        %.2f       %.2f\n", materias[nAsignaturas].materia, materias[nAsignaturas].ncreditos, materias[nAsignaturas].nhoras);
 
 									nAsignaturas++;		
 
@@ -345,7 +349,7 @@ int main(){
 																		
 
 								case 3:
-
+                                                                        system("cls");
 									
 
 									printf("D A T O S   P E R S O N A L E S :\n\n");
@@ -383,8 +387,8 @@ int main(){
 								
 
 								case 4:
-
-									
+                                                                        system("cls");
+                                    
                                                                         printf("Saliendo de la plataforma STARS....\n");
                                                                         printf("\n");
 									printf("** FIN DEL PROGRAMA **\n");
@@ -476,3 +480,6 @@ int main(){
 	   
 
 }
+
+
+
