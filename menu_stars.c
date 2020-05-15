@@ -197,19 +197,10 @@ int main(){
 									
 								
 								case 4:
-									
-									/*printf("          MENU DE STARS          \n");
-									printf("\n");
-									printf("Introduzca alguna de las opciones mostradas a continuacion \n");
-									printf("\n");
-									menu();
-									printf("Opcion seleccionada:");
-									fflush(stdin);
-									scanf("%c",&opcion);*/ 
-									
-									//no estoy segura
-									
+									//debe salir del programa
+									printf("** FIN DEL PROGRAMA **");
 									break;
+									
 								
 								default:
 									printf("Opcion incorrecta\n");
